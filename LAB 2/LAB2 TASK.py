@@ -48,7 +48,22 @@ print(list3[len(list3) - 1])
 print("Smallest element of array is ")
 print(list3[0])
 
-# LAB ACTIVITY 4
+#LAB TASK 3
+import math
+
+x = -3.14
+h = 0.001
+while x < 3.15:
+    z = x + h
+    sin = (math.sin(z) - math.sin(x)) / h
+    cos = math.cos(x)
+    print("The value of PI is: ", x)
+    print("The value of SIN(X) is: ", sin)
+    print("The value of COS(X) is: ", cos)
+    print()
+    x += 0.01
+
+# LAB TASK 4
 
 dict = {("Moiz", "Shamsheer"): "01-04-2002", ("Aqib", "Khan"): "01-16-2000", ("Ali", "Ahmed"): "05-12-2001"}
 print("Welcome to the birthday dictionary. We know the birthdays of: ")
